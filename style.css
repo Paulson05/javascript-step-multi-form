@@ -149,7 +149,7 @@ form .page .btns button.next{
     right: -51px;
     height: 3px;
     width: 44px;
-    /* background: yellow; */
+    background: yellow;
 }
 
 .progress-bar .step .bullet.active::after{
@@ -182,9 +182,14 @@ form .page .btns button.next{
 }
 .progress-bar .step .check{
    position: absolute;
-   left: 50%;
+   left: 40%;
    top: 70%;
+   display: none;
    font-size: 15px;
    transform: translate(-50% -50%);
-         /* display: none; */
+       
+}
+.progress-bar .step .check.active{
+    display: block;
+    color: white;
 }
